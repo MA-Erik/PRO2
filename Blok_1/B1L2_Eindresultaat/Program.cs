@@ -49,6 +49,7 @@ namespace _Eindresultaat
             Console.Title = "MY FIRST CONSOLE GAME";
 
             Console.SetWindowSize(screenWidth, screenHeight);
+            Console.Clear(); // Clear the screen before changing the buffer size!
             Console.SetBufferSize(screenWidth, screenHeight);
 
 
